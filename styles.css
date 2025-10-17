@@ -12,7 +12,7 @@ table {
 th, td {
     border: 1px solid #ddd;
     padding: 8px;
-    text-align: center;
+	text-align:right;
 }
 
 th {
@@ -22,3 +22,7 @@ th {
 h1 {
     text-align: center;
 }
+thead tr th{
+	text-align:left;
+}
+
