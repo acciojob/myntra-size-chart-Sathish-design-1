@@ -1,27 +1,41 @@
-/* Your CSS Code here. */
 body {
-  font-family: Arial, sans-serif;
-  display: flex;
-  justify-content: center;
-  margin-top: 50px;
-}
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #fff;
+    }
 
-table {
-  border-collapse: collapse;
-  width: 60%;
-  text-align: center;
-}
+    h2 {
+      text-align: left;
+      color: #333;
+    }
 
-th, td {
-  border: 1px solid #999;
-  padding: 8px;
-}
+    table {
+      width: 60%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
 
-th {
-  background-color: #f28b82;
-  color: white;
-}
+    thead {
+      background-color: #e86e6e;
+      color: white;
+    }
 
-tr:nth-child(even) {
-  background-color: #f9f9f9;
-}
+    th, td {
+      border: 1px solid #888;
+      text-align: center;
+      padding: 8px 12px;
+    }
+
+    th:first-child,
+    td:first-child {
+      text-align: left;
+      font-weight: bold;
+    }
+
+    tbody tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+
+    tbody tr:hover {
+      background-color: #ffeaea;
+    }
